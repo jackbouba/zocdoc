@@ -1,0 +1,52 @@
+// --------------------------- \
+// Utilities
+// --------------------------- /
+.nm {
+  margin: 0;
+}
+
+// --------------------------- \
+// Base
+// --------------------------- /
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase;
+}
+
+header, footer {
+  background-color: #000;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.padded {
+  padding: 40px 0;
+}
+
+// --------------------------- \
+// Layout
+// --------------------------- /
+h1 {
+  color: $darkBlue;
+  padding: 30px;
+  span {
+    color: $darkGrey;
+  }
+}
+
+// --------------------------- \
+// Thanks
+// --------------------------- /
+.section-thanks {
+  background-color: $darkGrey;
+}
+
+// --------------------------- \
+// Skillz
+// --------------------------- /
+.section-skillz {
+  background-color: #eceae8;
+}
