@@ -4,6 +4,27 @@
 .nm {
   margin: 0;
 }
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.ib {
+  display: inline-block;
+}
+.width-half {
+  width: 50%;
+}
+.padded {
+  padding: 40px 0;
+}
+.smaller {
+  font-size: 14px;
+}
+.text-grey {
+  color: $textGrey;
+}
 
 // --------------------------- \
 // Base
@@ -18,12 +39,19 @@ header, footer {
   background-color: #000;
 }
 
-.width-half {
-  width: 50%;
-}
-
-.padded {
-  padding: 40px 0;
+.button {
+  background-color: transparent;
+  border: 8px solid #e2e0dd;
+  padding: 10px 20px;
+  text-decoration: none;
+  -webkit-transition: border-color 0.2s linear;
+  -o-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  &:hover {
+    border-color: #D3D1CF;
+    color: $text-color;
+    text-decoration: none;
+  }
 }
 
 // --------------------------- \
