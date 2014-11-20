@@ -102,14 +102,29 @@ h1 {
 }
 
 // --------------------------- \
-// Skillz
-// --------------------------- /
-
-// --------------------------- \
 // iMac
 // --------------------------- /
 .section-imac {
   background-color: $midGrey;
+}
+
+// --------------------------- \
+// Social Links
+// --------------------------- /
+.social-links {
+  a {
+    img {
+      opacity: 1;
+      -webkit-transition: opacity 0.2s linear;
+      -o-transition: opacity 0.2s linear;
+      transition: opacity 0.2s linear;
+    }
+    &:hover {
+      img {
+        opacity: .6;
+      }
+    }
+  }
 }
 
 // --------------------------- \
