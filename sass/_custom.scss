@@ -4,11 +4,23 @@
 .nm {
   margin: 0;
 }
-.mb40 {
-  margin-bottom: 40px;
+.mb50 {
+  margin-bottom: 50px;
 }
 .mb20 {
   margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mt0 {
+  margin-top: 0;
+}
+.m5 {
+  margin: 5px;
+}
+.p30 {
+  padding: 30px;
 }
 .ib {
   display: inline-block;
@@ -17,13 +29,19 @@
   width: 50%;
 }
 .padded {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .smaller {
   font-size: 14px;
 }
 .text-grey {
   color: $textGrey;
+}
+.text-blue {
+  color: $blue;
+}
+.text-bold {
+  font-weight: 700;
 }
 
 // --------------------------- \
@@ -41,7 +59,7 @@ header, footer {
 
 .button {
   background-color: transparent;
-  border: 8px solid #e2e0dd;
+  border: 8px solid $midGrey;
   padding: 10px 20px;
   text-decoration: none;
   -webkit-transition: border-color 0.2s linear;
@@ -59,7 +77,6 @@ header, footer {
 // --------------------------- /
 h1 {
   color: $darkBlue;
-  padding: 30px;
   span {
     color: $darkGrey;
   }
@@ -70,11 +87,52 @@ h1 {
 // --------------------------- /
 .section-thanks {
   background-color: $darkGrey;
+  color: $lightGrey;
+}
+.section-thanks--content {
+  margin-top: 10%;
+  padding-left: 60px;
 }
 
 // --------------------------- \
 // Skillz
 // --------------------------- /
-.section-skillz {
-  background-color: #eceae8;
+
+// --------------------------- \
+// iMac
+// --------------------------- /
+.section-imac {
+  background-color: $midGrey;
+}
+
+// --------------------------- \
+// Footer
+// --------------------------- /
+footer, footer a, footer a:hover {
+  color: #305961;
+}
+
+
+// --------------------------- \
+// Small
+// --------------------------- /
+@media (max-width: 991px) {
+  .section-thanks--content {
+    margin-top: 5%;
+  }
+}
+
+// --------------------------- \
+// Tiny
+// --------------------------- /
+@media (max-width: 767px) {
+  .width-half {
+    float: none !important;
+    width: auto;
+  }
+  .section-thanks--content {
+    margin-top: 0;
+    padding: 40px;
+    text-align: center;
+  }
 }

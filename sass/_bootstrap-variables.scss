@@ -15,6 +15,7 @@
 
 $darkBlue:    #14505b;
 $darkGrey:    #1f1f1f;
+$midGrey:     #e2e0dd;
 $lightGrey:   #eceae8;
 $blue:        #00aac8;
 $textGrey:    #7e7e7e;
@@ -37,7 +38,7 @@ $textGrey:    #7e7e7e;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-// $body-bg:               #fff
+$body-bg:               #eceae8;
 //** Global text color on `<body>`.
 $text-color:            $darkGrey;
 
@@ -76,7 +77,7 @@ $font-size-h2:            30px;
 
 //** By default, this inherits from the `<body>`.
 $headings-font-family:       'Montserrat', sans-serif;
-$headings-font-weight:       700;
+$headings-font-weight:       400;
 // $headings-line-height:    1.1
 // $headings-color:          inherit
 
