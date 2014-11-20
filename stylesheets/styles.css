@@ -8255,38 +8255,52 @@ h1 span {
 .section-thanks {
   background-color: #1f1f1f;
   color: #eceae8;
+  position: relative;
 }
 
-/* line 92, ../sass/_custom.scss */
+/* line 93, ../sass/_custom.scss */
 .section-thanks--content {
   margin-top: 10%;
   padding-left: 60px;
 }
 
-/* line 104, ../sass/_custom.scss */
+/* line 97, ../sass/_custom.scss */
+.arrow {
+  margin-left: -20px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+}
+
+/* line 111, ../sass/_custom.scss */
 .section-imac {
   background-color: #e2e0dd;
 }
 
-/* line 111, ../sass/_custom.scss */
+/* line 118, ../sass/_custom.scss */
 footer, footer a, footer a:hover {
   color: #305961;
 }
 
 @media (max-width: 991px) {
-  /* line 120, ../sass/_custom.scss */
+  /* line 127, ../sass/_custom.scss */
   .section-thanks--content {
     margin-top: 5%;
   }
+
+  /* line 130, ../sass/_custom.scss */
+  .mb20-sm {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 767px) {
-  /* line 129, ../sass/_custom.scss */
+  /* line 139, ../sass/_custom.scss */
   .width-half {
     float: none !important;
     width: auto;
   }
 
-  /* line 133, ../sass/_custom.scss */
+  /* line 143, ../sass/_custom.scss */
   .section-thanks--content {
     margin-top: 0;
     padding: 40px;

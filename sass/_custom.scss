@@ -88,10 +88,17 @@ h1 {
 .section-thanks {
   background-color: $darkGrey;
   color: $lightGrey;
+  position: relative;
 }
 .section-thanks--content {
   margin-top: 10%;
   padding-left: 60px;
+}
+.arrow {
+  margin-left: -20px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
 }
 
 // --------------------------- \
@@ -119,6 +126,9 @@ footer, footer a, footer a:hover {
 @media (max-width: 991px) {
   .section-thanks--content {
     margin-top: 5%;
+  }
+  .mb20-sm {
+    margin-bottom: 20px;
   }
 }
 
